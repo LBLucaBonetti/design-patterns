@@ -2,12 +2,13 @@ package it.lbsoftware.factorymethod;
 
 import java.util.ArrayList;
 import java.util.List;
+import lombok.Getter;
 import lombok.extern.java.Log;
 
 @Log
 public class Pizza {
 
-  protected String name;
+  @Getter protected String name;
   protected String dough;
   protected String sauce;
   protected List<String> toppings = new ArrayList<>();
@@ -30,9 +31,5 @@ public class Pizza {
 
   public void box() {
     log.info("Place pizza in official PizzaStore box");
-  }
-
-  public String getName() {
-    return name;
   }
 }

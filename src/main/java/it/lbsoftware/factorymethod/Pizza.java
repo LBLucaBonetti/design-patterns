@@ -1,4 +1,4 @@
-package it.lbsoftware.factory;
+package it.lbsoftware.factorymethod;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package it.lbsoftware.factory;
+package it.lbsoftware.factorymethod;
 
 import it.lbsoftware.DesignPatternExample;
 import lombok.extern.java.Log;

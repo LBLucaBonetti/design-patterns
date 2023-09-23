@@ -1,4 +1,4 @@
-package it.lbsoftware.factory;
+package it.lbsoftware.factorymethod;
 
 public class ModenesePizzaStore extends PizzaStore {
 
